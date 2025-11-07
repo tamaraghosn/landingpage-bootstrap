@@ -1,0 +1,14 @@
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
+
+@media (min-width: 760px) {
+  .new-input {
+    width: 50%;
+    /* as long as the width hits the medium screen breakpoint give the input a width of 50% of the screen */
+    /* ya3ne aal medium screens and avive the input ia 50% of the width */
+    /*width of medium screens starts at 76opx  */
+  }
+}
